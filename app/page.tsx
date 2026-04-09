@@ -10,6 +10,7 @@ import {
   Sparkles,
   Wand2,
 } from "lucide-react";
+import portraitImage from "../ABAECEAD-324E-447B-927E-65239BA1B699_1_102_o.jpeg";
 import Image from "next/image";
 
 import Hero from "@/components/ui/demo";
@@ -134,7 +135,7 @@ export default function HomePage() {
           <div className="relative overflow-hidden rounded-[2rem] border border-black/10 bg-[var(--card-strong)] p-5 shadow-[0_30px_80px_rgba(54,34,17,0.08)]">
             <div className="absolute -top-12 -right-12 h-40 w-40 rounded-full bg-[var(--accent-soft)] blur-3xl" />
             <div className="relative rounded-[1.5rem] border border-white/60 bg-white/70 p-3 shadow-inner">
-              <Image alt="Portrait of Daphne Ng" className="h-auto w-full rounded-[1.25rem] object-cover" height={540} priority src="/profile.jpeg" width={360} />
+              <Image alt="Portrait of Daphne Ng" className="h-auto w-full rounded-[1.25rem] object-cover" height={540} priority src={portraitImage} width={360} />
             </div>
             <div className="relative mt-5 flex items-center justify-between gap-4">
               <div>
