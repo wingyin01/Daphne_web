@@ -36,21 +36,33 @@ const accordionItems: AccordionItemData[] = [
   },
   {
     id: 5,
+    title: "App Development",
+    imageUrl:
+      "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=1200&q=80",
+  },
+  {
+    id: 6,
     title: "Website Development",
     imageUrl:
       "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
   },
   {
-    id: 6,
+    id: 7,
     title: "API Development",
     imageUrl:
       "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
   },
   {
-    id: 7,
+    id: 8,
     title: "Generative AI + RAG",
     imageUrl:
       "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80",
+  },
+  {
+    id: 9,
+    title: "Engineering Research",
+    imageUrl:
+      "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=1200&q=80",
   },
 ];
 
@@ -89,13 +101,13 @@ export function LandingAccordionItem() {
 
   return (
     <div className="rounded-[2rem] border border-black/10 bg-[var(--card)] p-6 shadow-[0_30px_80px_rgba(54,34,17,0.08)] backdrop-blur-md md:p-8">
-      <div className="mb-6 max-w-2xl">
+      <div className="mb-6 max-w-3xl">
         <p className="text-sm uppercase tracking-[0.24em] text-stone-600">Selected strengths</p>
         <h2 className="mt-3 text-3xl font-semibold tracking-tight text-stone-900 md:text-4xl">
-          Where AI, analysis, and innovation come together.
+          Skills that shape how I build, analyze, and innovate.
         </h2>
-        <p className="mt-3 max-w-2xl text-base leading-7 text-stone-700">
-          A snapshot of the areas I am most excited to build in, from LLM applications and financial analysis to practical technology with real-world value.
+        <p className="mt-3 max-w-3xl text-base leading-7 text-stone-700">
+          This section highlights the core skills I have developed across AI, software engineering, product building, and research. It reflects the areas where I can contribute most strongly and the strengths I bring to building practical, thoughtful technology.
         </p>
       </div>
 

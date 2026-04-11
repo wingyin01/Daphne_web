@@ -200,7 +200,7 @@ export default function HomePage() {
             <span className="rounded-full border border-black/10 bg-white/70 px-3 py-2">Creative problem solving</span>
           </div>
           <h1 className="max-w-4xl text-5xl leading-[0.94] font-semibold tracking-tight text-stone-900 md:text-7xl">
-            Creating intelligent digital products where AI, engineering, business analysis, and creativity work together.
+            Building intelligent digital products with AI, engineering, and business insight.
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-stone-700 md:text-xl">
             I’m Daphne Ng, an aspiring <span className="font-semibold text-stone-900">Full-Stack & AI Engineer</span> who enjoys turning emerging technology, data-driven thinking, and innovative ideas into polished user experiences and practical product solutions.
@@ -277,8 +277,8 @@ export default function HomePage() {
                 variants={fadeUp}
               >
                 <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
-                  <div className="max-w-3xl">
-                    <h3 className="text-2xl font-semibold text-stone-900 md:text-3xl">
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-xl font-semibold leading-tight text-stone-900 md:text-2xl lg:text-[1.8rem]">
                       {project.title}
                       <span className="text-stone-500"> | {project.subtitle}</span>
                     </h3>
@@ -338,7 +338,7 @@ export default function HomePage() {
                       <p>{item.type}</p>
                     </div>
                   </div>
-                  <ul className="mt-4 ml-5 list-disc space-y-3 text-base leading-7 text-stone-700 marker:text-[var(--accent)]">
+                  <ul className="mt-4 ml-5 list-disc space-y-3 text-base leading-7 text-stone-700 marker:text-[#c48f2f]">
                     {item.bullets.map((bullet) => (
                       <li key={bullet} className="pl-1">{bullet}</li>
                     ))}
